@@ -1,95 +1,47 @@
-<<<<<<< HEAD
-# Roxiler-System-MERN-Assignment
-=======
+# 🚀 Roxiler System MERN Assignment
 
-# MERN stack coding assignment (Roxiler Systems)
+Welcome to the **Roxiler System MERN Assignment**! This project is a full-stack web application built using the **MERN (MongoDB, Express.js, React.js, Node.js) stack**.
 
-![Project Screenshot](./frontend/public/images/s1.png)
+## 🌟 Features
+✅ **User Authentication** - Secure login & registration  
+✅ **CRUD Operations** - Perform Create, Read, Update, and Delete actions  
+✅ **Responsive UI** - Clean and modern frontend using React.js  
+✅ **Database Management** - MongoDB for data storage  
+✅ **RESTful APIs** - Well-structured backend using Express.js & Node.js  
 
-# env
-PORT=5000
-
-NODE_ENV=development
-
-DATABASE_LOCAL=mongodb://localhost:27017/roxiler
-
-
-## Run Locally
-
-Clone the project
-
-```bash
-https://github.com/rvasande/Roxiler---MERN-Stack-Coding-Challenge.git
-```
+## 📂 Project Structure
+📦 Roxiler-System-MERN-Assignment ├── 📁 backend │ ├── 📁 config # Database configuration │ ├── 📁 controllers # API logic │ ├── 📁 models # Mongoose models │ ├── 📁 routes # API endpoints │ ├── 📁 utils # Helper functions │ ├── server.js # Main server file ├── 📁 frontend │ ├── 📁 src │ │ ├── 📁 components # Reusable UI components │ │ ├── 📁 pages # Application pages │ │ ├── 📁 assets # Images & styles │ │ ├── App.js # Main React component │ │ ├── index.js # Entry point │ ├── package.json # Frontend dependencies ├── README.md
 
 
-Install dependencies ( in root directory)
+## 🚀 Getting Started
+### 1️⃣ Clone the Repository
 
-```bash
-  npm install
-```
-Install dependencies (in frontend )
+git clone https://github.com/varadraj6055/Roxiler-System-MERN-Assignment.git
+cd Roxiler-System-MERN-Assignment
 
-```bash
-  1. cd frontend
-  2. npm install
-```
-RUN COMMAND IN ROOT DIRECTORY 
+# Install backend dependencies
+cd backend
+npm install
 
-Start the server
+# Install frontend dependencies
+cd ../frontend
+npm install
+# Start the backend server
+cd backend
+npm start
 
-```bash
-  npm run start
-```
-<span style="color: red;">IMPORTANT: Make sure that after running the server, you hit the following API on POSTMAN or in CHROME to seed the database with the GET method:</span>
+# Start the frontend server
+cd ../frontend
+npm start
+Open in Browser
+Go to: http://localhost:3000
 
-```bash
-   /api/v1/products/seedData
+🔧 Technologies Used
+Frontend: React.js, Bootstrap, Axios
+Backend: Node.js, Express.js, MongoDB
+Database: MongoDB (Mongoose ORM)
+📜 License
+This project is licensed under the MIT License.
 
-```
+🚀 Developed by Kharosekar Varadraj Abhay
 
-Start the client
-
-```bash
-  npm run client
-```
-
-Start both frontend & backend
-
-```bash
-  npm run dev
-```
-
-
-## API Reference
-
-#### 1) Seed data into database
-```http
-  GET /api/v1/products/seedData
-```
-
-#### 2) Get all products
-```http
-  GET /api/v1/products
-```
-
-#### 3) Get statistics of selected month
-```http
-  GET /api/v1/products/stats/:month
-```
-
-#### 4) Get category of selected month
-```http
-  GET /api/v1/products/category/:month
-```
-#### 5) Get statistics of selected month
-```http
-  GET /api/v1/products/barChart/:month
-```
-
-#### 6) Get statistics of selected month
-```http
-  GET /api/v1/products/combinedRes/:month
-```
-
->>>>>>> b6a6f00 (Initial commit)
