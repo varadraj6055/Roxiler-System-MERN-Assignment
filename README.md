@@ -9,6 +9,11 @@ Welcome to the **Roxiler System MERN Assignment**! This project is a full-stack 
 ✅ **Database Management** - MongoDB for data storage  
 ✅ **RESTful APIs** - Well-structured backend using Express.js & Node.js  
 
+## Screenshot
+
+<img width="1440" alt="Screenshot 2025-03-06 at 5 20 55 AM" src="https://github.com/user-attachments/assets/988f0d7d-d622-4cdc-8854-e05522ed6e34" />
+
+
 ## 📂 Project Structure
 📦 Roxiler-System-MERN-Assignment ├── 📁 backend │ ├── 📁 config # Database configuration │ ├── 📁 controllers # API logic │ ├── 📁 models # Mongoose models │ ├── 📁 routes # API endpoints │ ├── 📁 utils # Helper functions │ ├── server.js # Main server file ├── 📁 frontend │ ├── 📁 src │ │ ├── 📁 components # Reusable UI components │ │ ├── 📁 pages # Application pages │ │ ├── 📁 assets # Images & styles │ │ ├── App.js # Main React component │ │ ├── index.js # Entry point │ ├── package.json # Frontend dependencies ├── README.md
 
